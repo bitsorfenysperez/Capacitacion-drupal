@@ -1,0 +1,7 @@
+name: 'Training Drupal 8 Console'
+type: module
+description: 'My first module'
+core: 8.x
+package: 'BITS'
+dependencies:
+  - path

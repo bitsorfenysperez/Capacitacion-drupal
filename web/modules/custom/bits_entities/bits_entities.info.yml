@@ -1,0 +1,5 @@
+name: Bits Entities  
+type: module
+description: 'Bits entities'
+package: BITS 
+core: 8.x

@@ -1,0 +1,23 @@
+add bits entities message entities:
+  title: 'Create new Bits Entities Message entities'
+
+administer bits entities message entities:
+  title: 'Administer Bits Entities Message entities'
+  description: 'Allow to access the administration form to configure Bits Entities Message entities.'
+  restrict access: true
+
+delete bits entities message entities:
+  title: 'Delete Bits Entities Message entities'
+
+edit bits entities message entities:
+  title: 'Edit Bits Entities Message entities'
+
+access message overview:
+ title: 'Access the Bits Entities Message overview page'
+
+view published bits entities message entities:
+  title: 'View published Bits Entities Message entities'
+
+view unpublished bits entities message entities:
+  title: 'View unpublished Bits Entities Message entities'
+

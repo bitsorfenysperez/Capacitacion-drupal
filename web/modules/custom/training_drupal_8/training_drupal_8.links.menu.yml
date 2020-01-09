@@ -1,0 +1,6 @@
+training_drupal_8.hello:
+ title: Hello Page
+ description: 'Hello Page menu link' 
+ route_name: training_drupal_8.hello
+ menu_name: main
+ weight: 1

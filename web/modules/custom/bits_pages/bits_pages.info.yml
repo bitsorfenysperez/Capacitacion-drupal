@@ -1,0 +1,5 @@
+name: BITS Pages 
+type: module
+description: 'Displays a basic page.'
+package: BITS 
+core: 8.x

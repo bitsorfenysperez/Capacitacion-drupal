@@ -1,0 +1,5 @@
+name: Bits Block
+description: Form Block
+package: BITS
+type: module
+core: 8.x

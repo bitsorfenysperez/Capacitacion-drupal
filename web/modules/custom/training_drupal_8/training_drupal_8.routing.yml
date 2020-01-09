@@ -1,0 +1,9 @@
+training_drupal_8.hello:
+  path: '/training-drupal-8/hello'
+  defaults:
+    _controller: '\Drupal\training_drupal_8\Controller\TrainingDrupal8Controller::hello'
+    _title: 'Hello Page'
+  requirements:
+    _permission: 'access content'
+
+

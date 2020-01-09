@@ -1,0 +1,6 @@
+bits_forms.simple:
+ title: Formulario
+ description: 'Formulario simple' 
+ route_name: bits_forms.simple
+ menu_name: main
+ weight: 2

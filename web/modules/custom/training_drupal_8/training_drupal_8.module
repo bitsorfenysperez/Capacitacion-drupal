@@ -1,0 +1,36 @@
+<?php
+/**
+ * @file
+ * Training Drupal 8 archivo de modulo 
+ */
+
+ use Drupal\Core\Routing\RouteMatchInterface;
+
+ /**
+  * Implementacion hook_help().
+  */
+
+  function training_drupal_8_help($route_name,\Drupal\Core\Routing\RouteMatchInterface $route_match){
+      switch ($route_name) {
+          /**
+           * Ayuda del modulo principal para el modulo Training Drupal 8.
+          */
+          case 'help.page.training_drupal_8':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('This module how to create a simple page. ') . '</p>';
+            return $output;
+
+            /**
+             * Ayuda para otra ruta en el modulo Training Drupal 8
+             */
+        case 'training_drupal_8.hello':
+            $output = '';
+            $output .= '<p>' . t('This is a very simple page created by the training drupal 8 module. ') . '</p>';
+            return $output;
+      }
+  }
+
+
+
+
